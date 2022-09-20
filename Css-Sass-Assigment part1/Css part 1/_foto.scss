@@ -1,0 +1,17 @@
+.block {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 210px;
+  height: 210px;
+  background-color: white;
+  margin-top: -400px;
+  margin-left: 250px;
+  border-radius: 110px 110px 110px 110px;
+  .foto {
+    position: absolute;
+    clip-path: circle(6.6% at 60% 30%);
+    margin-top: -376px;
+    margin-left: -240px;
+  }
+}

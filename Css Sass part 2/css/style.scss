@@ -1,0 +1,40 @@
+@import "variables";
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  background-color: $background-color;
+}
+
+.image {
+  position: relative;
+  overflow: hidden;
+  border: $border;
+  border-radius: $border-radius;
+}
+.image > img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: center;
+}
+.image > .overlay {
+  position: absolute;
+  inset: 0;
+  aspect-ratio: 1/1;
+  font-size: 2rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $background-color1;
+  opacity: 0;
+}
+
+.image > .overlay {
+  transition: 2000ms ease-in-out;
+}
+.image:hover > .overlay {
+  opacity: 1;
+}

@@ -1,0 +1,44 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  background-color: #c3cfe2;
+}
+
+.image {
+  position: relative;
+  overflow: hidden;
+  border: solid #c3cfe2 5px;
+  border-radius: 25px 25px 25px 25px;
+}
+
+.image > img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1/1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.image > .overlay {
+  position: absolute;
+  inset: 0;
+  aspect-ratio: 1/1;
+  font-size: 2rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(22, 11, 95);
+  opacity: 0;
+}
+
+.image > img,
+.image > .overlay {
+  transition: 2000ms ease-in-out;
+}
+
+.image:hover > .overlay {
+  opacity: 1;
+}/*# sourceMappingURL=style.css.map */
