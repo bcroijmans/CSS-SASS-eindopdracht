@@ -1,0 +1,97 @@
+@import "./variables";
+@import "./frame.scss";
+.container {
+  font-family: "Fredoka One";
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  transform: translateX(+210px);
+  padding-top: 250px;
+  .image1 {
+    background-color: #e17b77;
+    border: $border;
+    width: $width;
+    height: $height;
+    border-radius: $border-radius;
+  }
+
+  .image2 {
+    background-color: #00aced;
+    border: $border;
+    width: $width;
+    height: $height;
+    border-radius: $border-radius;
+  }
+
+  .image3 {
+    background-color: #007bb6;
+    border: $border;
+    width: $width;
+    height: $height;
+    border-radius: $border-radius;
+  }
+
+  .image4 {
+    background-color: #3b5998;
+    border: $border;
+    width: $width;
+    height: $height;
+    border-radius: $border-radius;
+  }
+
+  .image5 {
+    background-color: #333;
+    border: $border;
+    width: $width;
+    height: $height;
+    border-radius: $border-radius;
+  }
+}
+.container > .image1:hover {
+  transition-property: $transition-property;
+  transition-duration: $transition-duration;
+  transition-timing-function: $transition-timing-function;
+  transform: $transform;
+}
+.container > .image2:hover {
+  transition-property: $transition-property;
+  transition-duration: $transition-duration;
+  transition-timing-function: $transition-timing-function;
+  transform: $transform;
+}
+.container > .image3:hover {
+  transition-property: $transition-property;
+  transition-duration: $transition-duration;
+  transition-timing-function: $transition-timing-function;
+  transform: $transform;
+}
+.container > .image4:hover {
+  transition-property: $transition-property;
+  transition-duration: $transition-duration;
+  transition-timing-function: $transition-timing-function;
+  transform: $transform;
+}
+.container > .image5:hover {
+  transition-property: $transition-property;
+  transition-duration: $transition-duration;
+  transition-timing-function: $transition-timing-function;
+  transform: $transform;
+}
+svg {
+  display: inline-block;
+  justify-content: flex-start;
+  align-content: flex-start;
+  width: 2rem;
+  height: 2rem;
+  margin: 5px;
+}
+a {
+  position: absolute;
+  display: inline-block;
+  color: white;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 3px;
+}

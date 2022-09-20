@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+.backgroundimage {
+  background-image: url(../landscape.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 450px;
+}
+
+.container {
+  font-family: "Fredoka One";
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  transform: translateX(210px);
+  padding-top: 250px;
+}
+.container .image1 {
+  background-color: #e17b77;
+  border: none;
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+}
+.container .image2 {
+  background-color: #00aced;
+  border: none;
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+}
+.container .image3 {
+  background-color: #007bb6;
+  border: none;
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+}
+.container .image4 {
+  background-color: #3b5998;
+  border: none;
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+}
+.container .image5 {
+  background-color: #333;
+  border: none;
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.container > .image1:hover {
+  transition-property: all;
+  transition-duration: 800ms;
+  transition-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+  transform: translateX(-175px);
+}
+
+.container > .image2:hover {
+  transition-property: all;
+  transition-duration: 800ms;
+  transition-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+  transform: translateX(-175px);
+}
+
+.container > .image3:hover {
+  transition-property: all;
+  transition-duration: 800ms;
+  transition-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+  transform: translateX(-175px);
+}
+
+.container > .image4:hover {
+  transition-property: all;
+  transition-duration: 800ms;
+  transition-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+  transform: translateX(-175px);
+}
+
+.container > .image5:hover {
+  transition-property: all;
+  transition-duration: 800ms;
+  transition-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+  transform: translateX(-175px);
+}
+
+svg {
+  display: inline-block;
+  justify-content: flex-start;
+  align-content: flex-start;
+  width: 2rem;
+  height: 2rem;
+  margin: 5px;
+}
+
+a {
+  position: absolute;
+  display: inline-block;
+  color: white;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 3px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+.backgroundimage {
+  background-image: url(../landscape.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 450px;
+}/*# sourceMappingURL=style.css.map */
